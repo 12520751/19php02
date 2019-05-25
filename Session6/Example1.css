@@ -24,3 +24,6 @@ h2 {
 .para2 {
 	text-indent: 20px;
 }
+small {
+	float: right;
+}
