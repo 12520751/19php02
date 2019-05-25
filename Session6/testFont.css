@@ -1,0 +1,11 @@
+@font-face {
+	font-family: myFont;
+	src: url("../fontAwsome/otfs/Angellina Demo.otf");
+}
+h3.test1 {
+
+}
+h3.test2 {	
+	font-family: myFont;
+	font-weight: bold !important;
+}

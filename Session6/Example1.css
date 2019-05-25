@@ -1,0 +1,26 @@
+.top img {
+	width: 10%;
+	float: left;
+}
+.top h1 {
+	text-align: center;
+	color: yellow;
+	text-shadow: 2px 2px gray;
+}
+h2 {
+	padding-top: 20px;
+	clear :left;
+}
+.top p {
+	text-align: center;
+	color: green;
+	font-style: italic;
+	font-size: 20px;
+}
+.click {
+	color: green;
+	font-weight: bold;
+}
+.para2 {
+	text-indent: 20px;
+}
