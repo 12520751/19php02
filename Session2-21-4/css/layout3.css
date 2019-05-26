@@ -1,0 +1,69 @@
+header{
+	width: 1004px;
+	height: 50px;
+	margin: auto;
+	border: 1px solid yellow;
+	background-color: grey;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+#nav{
+	width: 1004px;
+	height: 50px;
+	margin: auto;
+	border: 1px solid yellow;
+	background-color: grey;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+div#main {
+	width: 1004px;
+	height: 500px;
+	margin: auto;
+	border: 1px solid yellow;
+}
+div#left {
+	float: left;
+	color: white;
+	width: 600px;
+	height: 500px;
+	border: 1px solid yellow;
+	background-color: black;
+
+}
+div#left #section{
+	height: 250px;
+	background-color: green;
+	font-weight: bold;
+	text-align: center;
+	line-height: 250px;
+}
+div#left #article {
+	height: 250px;
+	background-color: blue;
+	font-weight: bold;
+	text-align: center;
+	line-height: 250px;
+}
+div#aside_right{
+	width: 400px;
+	height: 500px;
+	border: 1px solid yellow;
+	background-color: yellow;
+	float: left;
+	font-weight: bold;
+	text-align: center;
+	line-height: 500px;
+}
+footer{
+	width: 1004px;
+	height: 100px;
+	margin: auto;
+	border: 1px solid yellow;
+	background-color: grey;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+}

@@ -1,0 +1,285 @@
+#container{
+    width: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+/* ========================================== HEADER ================================================================== */
+header{
+    border: 0px solid red;
+    height: 100px;
+}
+#logo{
+    border-right: 0px solid red;
+    width: 40%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+#slogan{
+    border-left: 1px solid red;
+    width: 58%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+/* ========================================== SLIDER ================================================================== */
+#slider{
+    border-top: 1px solid red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+/* ========================================== NEW ================================================================== */
+#new{
+    border-top: 1px solid red;
+    height: 100px;
+}
+#new1{
+    border-right: 1px solid red;
+    width: 32%;
+    float: left;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+#new2{
+    border-right: 1px solid red;
+    width: 32%;
+    float: left;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+#new3{
+    width: 32%;
+    float: left;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+/* ========================================== ADS ================================================================== */
+#ads{
+    border-top: 1px solid red;
+    height: 100px;
+}
+#ads1{
+    border-right: 1px solid red;
+    height: 100px;
+    width: 49%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+#ads2{
+    height: 100px;
+    width: 49%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+/* ========================================== CONTENT ================================================================== */
+#content{
+    border-top: 1px solid red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+/* ========================================== FOOTER ================================================================== */
+#footer{
+    border-top: 1px solid red;
+    height: 100px;
+}
+#footer1{
+    border-right: 1px solid red;
+    height: 100px;
+    width: 49%;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+#footer2{
+    height: 100px;
+    width: 49%;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px  ) {
+    /* and (min-width:481px) */
+    /* ========================================== SLIDER ================================================================== */
+    #slider{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    }
+    #new{
+    border: 0px;
+    width: 100%;
+    float: left;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+    }
+    #new1{
+        border-right: 1px solid red;
+        width: 49%;
+        float: left;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+    }
+    #new2{
+        border: 0px;
+        width: 49%;
+        float: left;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+    }
+    #new3{
+        border: 0px;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        width: 100%;
+        float: left;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+    }
+    /* ========================================== ADS ================================================================== */
+     #ads{
+        border: 0px solid red;
+        height: 200px;
+    }
+    #ads1{
+        border: 0px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+    #ads2{
+        display: none;
+    } 
+    /* ========================================== CONTENT ================================================================== */
+    #content{
+        border-top: 1px solid red;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-top: 100px; 
+    }
+    /* ========================================== FOOTER ================================================================== */
+    #footer{
+
+        height: 100px;
+    }
+    #footer1{
+        border-bottom: 1px solid red;
+        border-right: 1px solid red;
+        height: 100px;
+        width: 49%;
+        text-align: center;
+        line-height: 100px;
+        float: left;
+    }
+    #footer2{
+        border: 0px;
+        height: 100px;
+        width: 49%;
+        text-align: center;
+        line-height: 100px;
+        float: left;
+
+    }
+}
+
+
+
+
+@media screen and (max-width:480px  ) {
+    header{
+        height: 200px;
+        width: 100%;
+    }
+    #logo{
+        width: 100%;
+    }
+    #slogan{
+        width: 100%;
+        border:0px;
+        border-top: 1px solid red;
+    }
+    #slider{
+        display: none;
+    }
+    #new{
+
+    }
+    #new1{
+        width: 100%;
+        border-top: 1px solid red;
+    }
+    #new2{
+        width: 100%;
+        border-top: 1px solid red;
+    }
+    #new3{
+        display: none;
+    }
+    #ads1{
+        border-top: 1px solid red;
+    }
+    #footer{
+        height: 200px;
+    }
+    #footer1{
+        width: 100%;
+    }
+    #footer2{
+        width: 100%;
+    }
+}
+
+
+
+
+UL li{
+    list-style-type: armenian;
+    list-style-image: url('https://cdn4.iconfinder.com/data/icons/6x16-free-application-icons/16/Apply.png');
+}
+ol li{
+    list-style-type: upper-roman;
+}
+ul li.php02{
+    color: green;
+}
+ul li:nth-child(3){
+    color: red;
+}
+ol li:nth-child(8){
+    color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color: red;
+} 

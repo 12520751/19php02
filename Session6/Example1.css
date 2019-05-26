@@ -1,3 +1,24 @@
+.main {
+	background-image: linear-gradient(white, orange);
+	height: 1000px;
+
+}
+.body {
+	background-color: white;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 50%;
+	margin-top: 30px;
+	padding: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 100px;
+}
+.top {
+	height: 150px;
+	border-bottom: 2px solid orange;
+
+}
 .top img {
 	width: 10%;
 	float: left;
@@ -8,8 +29,10 @@
 	text-shadow: 2px 2px gray;
 }
 h2 {
-	padding-top: 20px;
+	padding-top: 40px;
 	clear :left;
+
+
 }
 .top p {
 	text-align: center;
@@ -26,4 +49,7 @@ h2 {
 }
 small {
 	float: right;
+}
+.copyright {
+	border-top: 2px solid orange;
 }
