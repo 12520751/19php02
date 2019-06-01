@@ -1,0 +1,293 @@
+*{margin: 0;padding: 0;border: none;}
+body {
+	background-color: #FFEBCD;
+	width: 100%;
+}
+.page {
+
+	padding: 80px;
+	padding-top: 30px;
+}
+.head .beforelogo {
+	float: left;
+	padding-top: 18px;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+	
+}
+.head p.descriplogo {
+	clear: left;
+	font-size: 15px;
+	font-style: italic;
+	padding-left: 18px;
+}
+.head img.logo {
+	width: 5%;
+	float: left;
+}
+.head .afterlogo {
+	float: left;
+	padding-top: 18px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.head .menu {
+	clear: left;
+	padding-top: 30px;
+	width: 100%;
+}
+
+.head .menu ul li {
+        float: left;
+    list-style-type: none;
+    padding-left: 20px;
+    background-color: red;
+    border-left: 1px solid white;
+    padding-right: 30px;
+    /* width: 119px; */
+    height: 35px;
+    padding-top: 10px;
+}
+.head .menu a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	
+}
+
+.page .body {
+	width: 100%;
+	clear: left;
+	padding-top: 50px;
+}
+.page .body .bodytop {
+	height: 535px;
+	border-bottom: 1px solid #8080803b;
+}
+.page .body .topleft {
+	width: 48%;
+	float: left;
+}
+.page .body .topleft ul {
+	
+	float: right;
+	padding-top: 80px;
+}
+.page .body .topleft li {
+	float: left;
+	background-color: black;
+	list-style-type: none;
+	padding-left: 10px;
+	border-left: 1px solid white;
+
+
+}
+.page .body .topleft img {
+	width: 100%;
+}
+
+.page .body .topright {
+	width: 48%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 18px;
+
+}
+.page .body .topright .leftofright {
+	width: 40%;
+	padding-top: 10px;
+	float: left;
+}
+
+.page .body .topright .leftofright .block {
+	border-bottom: 1px solid #8080803b;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+.page .body .topright .leftofright .block1 img {
+	width: 50%;
+	float: left;
+
+}
+
+.page .body .topright .leftofright .block1 a {
+	width: 20%;
+	text-decoration: none;
+	color: #A52A2A;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.page .body .topright .leftofright p {
+	clear: left;
+	padding-top: 10px;
+}
+
+.page .body .topright .rightofleft {
+	width: 40%;
+    float: left;
+    padding-left: 36px;
+    padding-top: 25px;
+}
+
+.page .body .topright .rightofleft a.linkdetail {
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 4px;
+	border-bottom:  1px solid #8080803b;
+	font-size: 13px;
+
+}
+
+.page .body .bodymid {
+	float: left;
+	width: 100%;
+	height: 300px;
+	padding-top: 30px;
+	border-bottom: 1px solid #8080803b;
+}
+
+.page .body .bodymid .blockphoto {
+	width: 210px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+.page .body .bodymid .blockphoto img {
+	width: 100%;
+	height: 120px;
+}
+
+.page .body .bodymid .blockphoto a {
+	text-decoration: none;
+	color: #A52A2A;
+}
+
+.page .body .bodymid a {
+	float: right;
+	clear: left;
+	padding-top: 15px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.page .body .bodyfoot {
+	height: 630px;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #8080803b;
+}
+
+
+.page .body .bodyfoot .bodyfootblock {
+	width: 350px;
+	float: left;
+	padding-right: 30px;
+}
+.page .body .bodyfoot .bodyfootblock a.a1 {
+	float: right;
+}
+.page .body .bodyfoot .bodyfootblock .footblock {
+	width: 100%;
+	padding-top: 17px;
+	border-bottom: 1px solid #8080803b;
+	padding-bottom: 20px;
+}
+
+.page .body .bodyfoot .bodyfootblock .footblock:nth-child(4) {
+	border-bottom: none;
+}
+.page .body .bodyfoot .bodyfootblock h3 {
+	padding-bottom: 20px;
+	font-size: 25px;
+
+}
+
+
+
+.page .body .bodyfoot .bodyfootblock img {
+	width: 40%;
+	float: left;
+	padding-right: 20px;
+}
+
+.page .body .bodyfoot .bodyfootblock .footblockright p {
+	padding-top: 85px;
+
+}
+
+.page .body .bodyfoot .bodyfootmid {
+	width: 350px;
+	float: left;
+	padding-right: 20px;
+}
+
+.page .foot {
+	width: 100%;
+	height: 350px;
+	border-bottom: 1px solid #8080803b;
+}
+.page .foot .infoblock {
+	width: 250px;
+	float: left;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.page .foot .infoblock:nth-child(1) {
+	clear:left;
+}
+.page .foot .infoblock h2 {
+	padding-bottom: 20px;
+}
+
+.page .foot .infoblock a {
+	color: #808080eb;
+
+}
+.paddinga {
+	padding-top: 20px;
+}
+.description .connection {
+	padding-top: 20px;
+
+}
+.description .connection img {
+	width: 3%;
+	float: right;
+}
+.description .connection p {
+	color: #808080eb;
+	clear: left;
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.page .body .bodymid .blockphoto {
+    width: 180px;
+    float: left;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.page .body .bodyfoot .bodyfootblock {
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+}
+.page .foot .infoblock {
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.page .body .bodyfoot .bodyfootblock .footblockright p {
+	padding-top: 85px;
+	padding-left: 140px;
+
+}
+
+}
